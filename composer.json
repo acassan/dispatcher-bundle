@@ -1,0 +1,35 @@
+{
+  "name": "acassan/dispatcher-bundle",
+  "description": "Dispatcher bundle to symfony2",
+  "type": "symfony-bundle",
+  "authors": [
+    {
+      "name": "alexis CASSAN",
+      "email": "alexiscassan@gmail.com"
+    },
+    {
+      "name": "Dispatcher bundle Contributors",
+      "homepage": "https://github.com/acassan/dispatcher-bundle#contributors"
+    }
+  ],
+
+  "keywords": ["dispatcher", "symfony2", "bundle"],
+  "license": "GPL",
+  "require": {
+    "php": ">=5.3.9",
+    "symfony/symfony": "2.8.x-dev"
+  },
+  "require-dev": {
+    "phpunit/phpunit": ">=3.7"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "DispatcherBundle\\": ""
+    }
+  },
+  "target-dir": "",
+  "config": {
+    "bin-dir": "bin"
+  }
+}

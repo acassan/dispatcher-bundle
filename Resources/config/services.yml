@@ -1,0 +1,11 @@
+services:
+    dispatcher.manager:
+        class: DispatcherBundle\Manager\DispatcherManager
+        arguments: []
+
+## ADD DISPATCHER
+#   dispatcher.internal:
+#       class: DispatcherBundle\Dispatcher\InternalDispatcher
+#       arguments: [ '@event_dispatcher' ]
+#       tags:
+#           - { name: dispatcher.instance, alias: internal }
