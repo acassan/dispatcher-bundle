@@ -1,5 +1,5 @@
 <?php
-namespace DispatcherBundle\Manager\Dispatcher;
+namespace DispatcherBundle\Manager;
 
 use DispatcherBundle\Dispatcher\DispatcherInterface;
 use Symfony\Component\EventDispatcher\Event;

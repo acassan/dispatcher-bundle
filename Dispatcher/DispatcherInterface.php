@@ -1,6 +1,6 @@
 <?php
-
 namespace DispatcherBundle\Dispatcher;
+
 use Symfony\Component\EventDispatcher\Event;
 
 /**

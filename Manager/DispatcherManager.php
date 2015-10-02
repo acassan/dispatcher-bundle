@@ -2,7 +2,6 @@
 namespace DispatcherBundle\Manager;
 
 use DispatcherBundle\Dispatcher\DispatcherInterface;
-use DispatcherBundle\Manager\Dispatcher\DispatcherManagerInterface;
 use Symfony\Component\EventDispatcher\Event;
 
 /**
